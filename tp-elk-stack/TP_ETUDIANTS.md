@@ -36,13 +36,13 @@ Votre cluster doit contenir au minimum :
 
 Les manifests doivent utiliser les images suivantes pour la stack Elastic :
 
-| Composant | Image Docker obligatoire |
-| --- | --- |
-| Elasticsearch | `docker.elastic.co/elasticsearch/elasticsearch:8.19.16` |
-| Kibana | `docker.elastic.co/kibana/kibana:8.19.16` |
-| Logstash | `docker.elastic.co/logstash/logstash:8.19.16` |
-| Filebeat | `docker.elastic.co/beats/filebeat:8.19.16` |
-| Application HTTP | image produite par vous, avec tag figé et documenté |
+| Composant          | Image Docker obligatoire                                                         |
+| ------------------ | -------------------------------------------------------------------------------- |
+| Elasticsearch      | `docker.elastic.co/elasticsearch/elasticsearch:8.19.16`                          |
+| Kibana             | `docker.elastic.co/kibana/kibana:8.19.16`                                        |
+| Logstash           | `docker.elastic.co/logstash/logstash:8.19.16`                                    |
+| Filebeat           | `docker.elastic.co/beats/filebeat:8.19.16`                                       |
+| Application HTTP   | image produite par vous, avec tag figé et documenté                              |
 | Import Air Quality | image produite par vous, basée sur `docker.elastic.co/logstash/logstash:8.19.16` |
 
 Vous êtes responsables du choix et de l'organisation des ressources Kubernetes nécessaires pour faire fonctionner ces composants.
@@ -128,7 +128,7 @@ Travail demandé sur ce dataset :
 - créer un dashboard interactif contenant vos visualisations Air Quality ;
 - ajouter un contrôle de type Options list sur le lieu géographique et vérifier le filtre sur `Bronx`.
 
-Les objets Kibana créés pour cette partie doivent être exportés dans votre rendu.
+Des captures d'écran suffiront pour montrer que les requêtes/dashboards ont été faites. Déposez les dans votre répo/zip
 
 ### 7. Scénarios de validation
 
