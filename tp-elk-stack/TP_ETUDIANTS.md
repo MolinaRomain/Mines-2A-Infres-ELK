@@ -42,8 +42,8 @@ Les manifests doivent utiliser les images suivantes pour la stack Elastic :
 | Kibana | `docker.elastic.co/kibana/kibana:8.19.16` |
 | Logstash | `docker.elastic.co/logstash/logstash:8.19.16` |
 | Filebeat | `docker.elastic.co/beats/filebeat:8.19.16` |
-| Application HTTP | image produite par votre groupe, avec tag figé et documenté |
-| Import Air Quality | image produite par votre groupe, basée sur `docker.elastic.co/logstash/logstash:8.19.16` |
+| Application HTTP | image produite par vous, avec tag figé et documenté |
+| Import Air Quality | image produite par vous, basée sur `docker.elastic.co/logstash/logstash:8.19.16` |
 
 Vous êtes responsables du choix et de l'organisation des ressources Kubernetes nécessaires pour faire fonctionner ces composants.
 
